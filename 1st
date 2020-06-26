@@ -1,0 +1,17 @@
+n=4
+for i in range(0,n):
+	for j in range(0,i+1):
+		print("* ",end="") 
+	print("\r")
+	sum=0
+for i in range (10):
+	n=int(input("enter 10 numbers "))
+	sum=sum+n
+avg=sum/10
+print(sum)
+print(avg)
+n=4
+for i in range(0,n):
+	for j in range(0,i+1):
+		print("* ",end="") 
+	print("\r")
