@@ -1,0 +1,6 @@
+x=[11,22,11,22,11,22,54,54,32,45,32]
+y=[]
+for i in x:
+    if i not in y:
+        y.append(i)
+print(y)
